@@ -1,0 +1,48 @@
+body{
+	background-color: #f5f6fa;
+	font-family: "Century Gothic", Sans-serif;
+}
+
+.h1Header{
+	background-color: #f5f6fa;
+	height: 150px;
+}
+
+.input1{
+	width: 100%;
+}
+
+.divPrincipal{
+	background-color: rgba(209,236,241,0.75);
+	
+    border-radius: 20px 20px 20px 20px;
+    padding: 15px 0px 20px 0;
+}
+
+.imgLogo{
+	max-width: 300px;
+}
+
+.h1Titulo{
+	line-height: 8rem;
+	color: #5c5a46;
+}
+
+.containerPrincipal{
+	background-image: url(../img/terapia.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    padding: 0 0 120px 0;
+}
+
+.divContainForm{
+	padding: 50px 0 0 0;
+}
+
+
+footer {
+    background-color: #30313f;
+    color: white;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
