@@ -3,7 +3,7 @@ body{
 	font-family: "Century Gothic", Sans-serif;
 }
 
-.h1Header{
+.header{
 	background-color: #f5f6fa;
 	height: 150px;
 }
@@ -38,6 +38,14 @@ body{
 	padding: 50px 0 0 0;
 }
 
+.divImagenLogo{
+	text-align: left;	
+}
+
+.panelResponsiveImagen{
+	display: none;
+}
+
 
 footer {
     background-color: #30313f;
@@ -45,4 +53,38 @@ footer {
     padding-bottom: 3rem;
     padding-top: 3rem;
     width: 100%;
+}
+
+
+@media only screen and (max-width: 1600px) {
+}	
+
+@media only screen and (max-width: 1024px) {
+	
+	.containerPrincipal{
+		background-image: none;
+    	padding: 0 0 10px 0;
+	}
+	.h1Titulo{
+		line-height: 4rem;
+		color: #5c5a46;
+		font-size: 25px;
+	}
+	.tituloContactanos{
+		font-size: 22px;
+	}
+	.divImagenLogo{
+		text-align: center;	
+	}
+	.panelResponsiveImagen{
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	
+	
+}
+
+@media only screen and (max-width: 480px) {
 }
