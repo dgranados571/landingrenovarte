@@ -1,4 +1,4 @@
-body{
+.body{
 	background-color: #f5f6fa;
 	font-family: "Century Gothic", Sans-serif;
 }
@@ -46,6 +46,44 @@ body{
 	display: none;
 }
 
+.imgWhatsapp{
+	max-width: 30px;
+}
+
+.imgFacebook{
+	max-width: 30px;
+}
+
+.containerInicial{
+	background-image: url(../img/terapiaInitial.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 0 0 0px 0;
+    display: block;
+}
+
+.containerInicial1{
+	background-color: rgba(48,49,63,0.4) ;
+	color: white;	
+	padding: 0 0 120px 0;
+}
+
+.containerInicial2{
+	padding: 50px 0 0px 0;
+}
+
+.containerInicialResponsive{
+	display: none;
+}
+
+
+.parrafoInicial {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 22px;
+    padding: 0 15px 0 15px;
+}
+
 
 footer {
     background-color: #30313f;
@@ -65,8 +103,11 @@ footer {
 		background-image: none;
     	padding: 0 0 10px 0;
 	}
+	.divContainForm{
+		padding: 0px 0 0 0;
+	}
 	.h1Titulo{
-		line-height: 4rem;
+		line-height: 2rem;
 		color: #5c5a46;
 		font-size: 25px;
 	}
@@ -78,6 +119,36 @@ footer {
 	}
 	.panelResponsiveImagen{
 		display: block;
+	}
+	.containerInicial{
+		background-image: url(../img/terapiaInitial.png);
+    	background-size: 100%;
+    	background-repeat: no-repeat;
+   	 	padding: 0 0 0px 0;
+   	 	display: none;
+	}
+	.containerInicialResponsive{
+		padding: 60px 0px 0 0;
+		display: block;
+	}
+	.containerInicial2Responsive{
+		background-image: url(../img/terapiaInitial.png);
+    	background-size: 100%;
+    	background-repeat: no-repeat;
+    	background-position: center;
+	}
+	.divcontenidoParrafo{
+		background-color: rgba(209,236,241,0.5);
+    	border-radius: 20px 20px 20px 20px;
+		color: #30313f;	
+		padding: 15px 0px 20px 0;
+	}
+	.parrafoInicial {
+    	margin-top: 0rem;
+    	margin-bottom: 0rem;
+    	font-size: 12px;
+  	  	padding: 0 15px 0 15px;
+  	  	font-weight: bold;
 	}
 }
 
